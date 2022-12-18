@@ -43,7 +43,13 @@ public class MovementSystem : MonoBehaviour
 
     void GroundCheck() 
     {
-        is_grounded = Physics.OverlapSphere(transform.position-Vector3.down, 2f).Length>1;
+        var hitboxes_list = Physics.OverlapSphere(transform.position,character.radius+0.1f);
+       
+
+        is_grounded = hitboxes_list.Length>1;
+
+        
+
     }
 
 
