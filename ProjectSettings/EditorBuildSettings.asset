@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/\u0421\u0446\u0435\u043D\u0438/Platformer Level1.unity"
+    guid: 616dc266e4391ea40bd3f109d99d1f0c
   m_configObjects: {}
